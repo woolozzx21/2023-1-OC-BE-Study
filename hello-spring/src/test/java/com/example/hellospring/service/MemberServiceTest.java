@@ -26,7 +26,7 @@ class MemberServiceTest {
 
     @AfterEach
     public void afterEach() {
-        memoryMemberRepository.clearStore();
+        memberRepository.clearStore();
     }
 
     @Test
